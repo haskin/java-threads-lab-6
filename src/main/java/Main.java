@@ -14,6 +14,7 @@ public class Main {
             // submit tasks to your executor
             executor.submit(new PrimeLogger(num));
         }
+        executor.shutdown();
     }
 }
 
