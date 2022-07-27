@@ -35,6 +35,6 @@ class PrimeLogger implements Runnable {
     public void run() {
         // print num if it is prime
         if (isPrime(num))
-            System.out.println("This number was prime: " + num);
+            System.out.println(num + " is a prime number");
     }
 }
